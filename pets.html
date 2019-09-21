@@ -67,19 +67,65 @@
 
 <amp-story-page id="cover">
   <amp-story-grid-layer template="fill">
-    <amp-img src="./assets/cat.jpg"
+    <amp-img src="./assets/cover.jpg"
     width="720" height="1280"
     layout="responsive">
   </amp-img>
-  
+  </amp-story-grid-layer>
+
   <amp-story-grid-layer template="vertical">
 <h1>The joy of petsテスト</h1>
 <p>by Yokoyama Go</p>
-</amp-img>
+<!--</amp-img>-->
+
   </amp-story-grid-layer>
-  
+</amp-story-page>
+
+<amp-story-page id="page1">
+  <amp-story-grid-layer template="vertical">
+    <h1>Cats</h1>
+
+    <amp-img src="./assets/cat.jpg"
+    height="1280px"
+    width="720px"
+    layout="responsive"></amp-img>
+<q>引用!!!</q>
+
+
+  </amp-story-grid-layer> 
 
 </amp-story-page>
+<!-- I wonder this code dowsn't work why
+  
+   
+<amp-story-page id="page2">
+  <amp-story-grid-layer template="fill">
+  
+    <amp-img scr="assets/dog.jpg"
+    height="1280" width="720"
+    layout="responsive"></amp-img>
+  </amp-story-grid-layer>
+<amp-story-grid-layer template="thirds">
+  <h1 grid-area="upper-third">犬!</h1>
+  <p grid-area="lower-thrid">ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+</amp-story-grid-layer>
+-->
+
+</amp-story-page>
+
+<amp-story-page id="page2-correct">
+    <amp-story-grid-layer template="fill">
+      <amp-img src="assets/dog.jpg" 
+          width="720" height="1280"
+          layout="responsive">
+      </amp-img>
+    </amp-story-grid-layer>
+      <amp-story-grid-layer template="thirds">
+        <h1 grid-area="upper-third">Dogs</h1>
+        <p grid-area="lower-third">Dogs were probably the first tame animals. They have accompanied humans for some 10,000 years. Some scientists assert that all dogs, domestic and wild, share a common ancestor in the small South Asian wolf.</p>
+    </amp-story-grid-layer>
+  </amp-story-page>
+
 
 
 
